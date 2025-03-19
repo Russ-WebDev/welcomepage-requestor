@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #3572EF;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+.login-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    width: 250px;
+    image-rendering: crisp-edges;
+    margin-bottom: 20px;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(0px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.leftside-form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftside-form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #3572EF;
+    color: white;
+}
+
+.leftside-form button:hover {
+    background-color: #e6e6e6;
+    color: #2F477C;
+}
+
+.rightside-form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.rightside-form label {
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.rightside-form input,
+.rightside-form select,
+.rightside-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.rightside-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.rightside-form p {
+    text-align: center;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rightside-form label {
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.submit-btn {
+    width: 60%;
+    padding: 15px;
+    background-color: #2F477C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+.submit-btn:hover {
+    background-color: #e4e5e7;
+    color: #2F477C;
+}
+
+.mec-background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.main-background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(47, 71, 124, 0.75);
+}
