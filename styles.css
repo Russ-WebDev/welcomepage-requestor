@@ -86,12 +86,13 @@ body {
 .rightside-form input,
 .rightside-form select,
 .rightside-form textarea {
-    width: 100%;
+    width: 60%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
+    margin-left: 40%;
 }
 
 .rightside-form textarea {
@@ -108,7 +109,7 @@ body {
 
 .rightside-form label {
     text-align: left;
-    margin: 10px 0 5px;
+    margin: 10px;
     font-weight: normal;
     font-size: 15px;
 }
